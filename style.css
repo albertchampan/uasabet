@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'kaoly';
+    src: url(./asset/font/Kaoly\ Demo-Regular.ttf);
+}
+@font-face {
+    font-family: 'avenir_light';
+    src: url(./asset/font/AvenirLTStd-Light.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.canvas{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    background-color: #0A0D12;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainmenu{
+    margin-left: 60px;
+    flex-direction: row;
+    justify-content:left;
+    list-style-type: none;
+    display: flex;  
+}
+
+.about{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right:50px ;
+    margin-left: -20px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.about:hover{
+    color: #fde400;
+}
+
+
+.menu2{
+    color: #ffffff;
+    font-family: 'avenir_light';
+    background-image: url(./asset/pastagradient.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
+}
+
+.menu{
+font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #ffffff;
+  font-family: 'avenir_light';
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.menu:hover{
+    color: #fde400;
+}
+
+
+.reservation{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.reservation:hover{
+    color: #fde400;
+}
+
+
+.hamburger {
+    max-width: 30px;
+    max-height: 30px;
+   margin-left: 10px;
+   margin-right: 50px;
+   margin-top: 20px;
+   list-style-type: none;
+   float: right;
+}
+
+.bodytext{
+    margin-left: 0px;
+}
+
+.bar_kismet{
+    text-align: left;
+    font-size:120px;
+    padding-top: 230px;
+    margin-bottom: 230px;
+    color:#ffffff;   
+    margin-left: 40px;
+    font-family: 'kaoly';
+}
+
+.reservation_online {
+    font-size: 15px;
+    margin-top: 270px;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    line-height: 10px;
+}
+
+.gift_card{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    line-height: 10px;
+    padding-bottom:350px ;
+}
+
+.about_us{
+    font-size: 64px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: 'kaoly';
+    text-align: center;
+}
+
+.section2{
+    align-items: center;
+    justify-content: center;
+}
+
+.ikan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.small_family{
+    margin-top: 70px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    text-align: center;
+}
+
+.food{
+    margin-top: 70px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'avenir_light';
+    text-align: center;    
+}
+
+.menu_sub{
+    font-size: 64px;
+    margin-top: 200px;
+    color: #ffffff;
+    font-family: 'kaoly';
+    text-align: center;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1em;
+}
+
+.col-left{
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.col-right{
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row{
+    flex: 1;
+    border-radius: 2em;
+}
+
+.row3{
+    display: flex;
+    border: none;
+    gap: 1em;
+}
+
+.rowcol{
+    flex: 2em;
+    border-radius: 2em;
+
+}
+
+
+.row1{
+    background-image: url(./asset/pastafioriwithtext.png);
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.row1:hover{
+    background-image: url(./asset/pastaa.png);
+    position: 50% absolute;
+}
+
+.row2{
+    background-image: url(./asset/redwinewithtext.png);
+    background-size: cover;
+    background-position: 0px -20px;
+    background-repeat: no-repeat;
+}
+.row2:hover{
+    background-image: url(./asset/redwine.png);
+}
+
+.left{
+    background-image: url(./asset/coktel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -45px 0px;
+}
+.left:hover{
+    background-image: url(./asset/cocktails.png);
+}
+
+.right{
+    background-image:url(./asset/eclair.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right:hover{
+    background-image: url(./asset/strawberryeclair.png);
+}
+
+.top{
+    background-image:url(./asset/scallopwithtext.png) ;
+    background-size: cover;
+    background-position: 0px -155px;
+    background-repeat: no-repeat;
+}
+.top:hover{
+ background-image: url(./asset/rawscalop\ without\ black\ layer.png);
+}
+
+
+.bottom{
+    background-image: url(./asset/oster.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+}
+.bottom:hover{
+    background-image: url(./asset/oyster.png)
+}
+
+.outlet{
+    font-size: 64px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-family: 'kaoly';
+    text-align: center;
+}
+
+.container2{
+    width: 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1em;
+    
+}
+
+.kolomkiri{
+    flex: 2;
+    border-radius: 2em;
+}
+.kolomkanan{
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.baris{
+    flex: 1;
+    border-radius:  2em;
+}
+
+.bar1{
+    background-image: url(./asset/barrrr.png);
+    background-position: -15px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar1:hover{
+    background-image: url(./asset/barwkwk.png);
+}
+
+.bar2{
+    background-image: url(./asset/fotobareng.jpg);
+    background-position: -130px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kolomkiri{
+    background-image: url(./asset/maps.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comewithus{
+    font-size: 64px;
+    margin-top: 200px;
+    color: #ffffff;
+    font-family: 'kaoly';
+    text-align: center;
+}
+
+.mapsbutton{
+    cursor: pointer;
+    width: 660px;
+    height: 700px;
+    opacity: 0%;
+    border-radius: 2em;
+}
+
+.email{
+    padding-left: 50px;
+}
+
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content:space-between ;
+    font-size: 25px;
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;  
+    color: #ffffff;
+    font-family: 'avenir_light';
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.logoo{
+    padding-top: 200px;
+    justify-content:center;
+    list-style-type: none;
+    display: flex; 
+    justify-content:space-between ; 
+    margin-left: 170px;
+    margin-right: 170px;
+}
